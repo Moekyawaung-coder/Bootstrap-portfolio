@@ -1,0 +1,28 @@
+body {
+  font-family: 'Arial', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.project-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(30,144,255,0.6);
+}
+
+a {
+  color: #1e90ff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #63b3ed;
+}
